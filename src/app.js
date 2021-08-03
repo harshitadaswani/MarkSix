@@ -1,5 +1,3 @@
-import "./styles.css";
-
 console.log("script is working");
 
 var translateButton = document.querySelector("#translate-button");
