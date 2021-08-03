@@ -5,6 +5,7 @@ var translateInput = document.querySelector("#translate-input");
 var translateOutput = document.querySelector("#translate-output");
 var url = "https://api.funtranslations.com/translate/minion.json";
 
+console.log(translateButton);
 translateButton.addEventListener("click", buttonClickHandler);
 
 function getTranslatedURL(text) {
@@ -12,7 +13,7 @@ function getTranslatedURL(text) {
   return a;
 }
 
-function buttonClickHandler(event) {
+function buttonClickHandler() {
   console.log("button clicked");
   var input = translateInput.value;
   var finalURL = getTranslatedURL(input);
