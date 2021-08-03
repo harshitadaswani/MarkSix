@@ -64,6 +64,9 @@ button {
   color: #111827;
   align-content: center;
   padding: 1rem;
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
 }
 
 .social-container {
